@@ -57,3 +57,33 @@ img{
 .final h3{
     color: navy;
 }
+.box{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:20px ;
+    padding-right: 20px;
+    border-radius: 10px;
+   
+    
+ 
+}
+.final{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#jhikimiki-color{
+    border-left: 7px solid;
+    
+    border-image: linear-gradient(black,cyan);
+    border-image-slice:1;
+}
+#uradhura-color{
+    border-left: 7px solid;
+    
+    border-image: linear-gradient(red,black);
+    border-image-slice:1;
+
+}
