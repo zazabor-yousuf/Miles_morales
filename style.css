@@ -1,6 +1,6 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+    font-family: 'Encode Sans SC', sans-serif;
+    margin: 0px;
 }
 span{
     color: red;
@@ -8,12 +8,14 @@ span{
 }
 h1{
     font-size: 60px;
+    font-weight: bolder;
 }
 h2{
     font-size: 40px;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width:50% ;
@@ -38,5 +40,16 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
     
+}
+img{
+    height: 800px;
+   
+}
+.another-sec{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
