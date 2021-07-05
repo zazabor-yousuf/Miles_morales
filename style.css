@@ -9,11 +9,12 @@ span{
 h1{
     font-size: 60px;
     font-weight: bolder;
+    
 }
 h2{
     font-size: 40px;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
@@ -52,4 +53,7 @@ img{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.final h3{
+    color: navy;
 }
